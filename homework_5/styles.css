@@ -1,9 +1,20 @@
+/* Small Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .hero,
 .cards-container {
   margin: 0 auto;
-  max-width: 1240px;
   width: 100%;
 }
+
+.cards-container {
+  max-width: 1240px;
+}
+
 .hero {
   background: url("https://images.yourstory.com/cs/1/a5b639f0-7884-11e9-8da9-af883672548c/shared_darken_cowork1566194215671.jpg?fm=png&auto=format")
     center center no-repeat;

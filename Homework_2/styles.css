@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #2286c3;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+.cards-group {
+  display: flex;
+  margin-top: 40px;
+}
+.card {
+  background: #64b4f6;
+  color: white;
+  flex: 1;
+  margin: 0 20px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 30px;
+}
